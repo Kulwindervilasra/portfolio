@@ -9,7 +9,7 @@ import india from "../assets/images/india.png"
 class DynamicValues {
     static initialInformation: IInitialInformation = {
         name: "Kulwinder Singh",
-        occupation: "Fullstack Software Developer | Blockchain Expert | Team Lead",
+        occupation: "Fullstack Software Developer | Blockchain Expert | Team Lead with over 7 years of professional experience.",
     };
 
     static directMessageItems: Array<IDirectMessageItem> = [
@@ -32,27 +32,27 @@ class DynamicValues {
             arr: [
                 {
                     title: "Name",
-                    desc: "Kulwinder Singh - A seasoned Fullstack Developer and Blockchain Expert with over 7 years of experience.",
+                    desc: "Kulwinder Singh - A seasoned Fullstack Developer and Blockchain Expert with over 7 years of hands-on experience in designing and implementing scalable solutions.",
                     logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png"
                 },
                 {
                     title: "Work Experience",
-                    desc: "7+ years of professional experience in full-stack development, blockchain, and team leadership.",
+                    desc: "Over 7 years of professional experience specializing in full-stack development, blockchain technology, and leading high-performing teams to deliver innovative projects.",
                     logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png"
                 },
                 {
                     title: "Languages",
-                    desc: "Fluent in Punjabi, Hindi, and English, enabling seamless communication in diverse environments.",
+                    desc: "Fluent in Punjabi, Hindi, and English, facilitating effective communication across diverse multicultural environments.",
                     logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png"
                 },
                 {
                     title: "Nationality",
-                    desc: "Indian citizen with a global professional outlook, experienced in working with international teams.",
+                    desc: "Proud Indian citizen with a global perspective, adept at collaborating with international teams and adapting to various cultural settings.",
                     logo: india
                 },
                 {
                     title: "Resume",
-                    desc: "Click the link to view/download my latest resume for a detailed overview of my skills and experience.",
+                    desc: "Access my comprehensive resume detailing my extensive skills, qualifications, and professional journey.",
                     link: "https://drive.google.com/file/d/1NrxK5tlN9CtiLf3NNe75mOGrl4_0RlXT/view",
                     logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png"
                 }
@@ -63,23 +63,23 @@ class DynamicValues {
             arr: [
                 {
                     title: "Senior Backend Engineer",
-                    desc: "Currently leading backend engineering efforts at Alphanet Corp, focusing on scalable architectures and microservices. (Sept 2024 - Present)",
-                    logo: alphanet
+                    desc: "Currently leading backend engineering efforts at Alphanet Corp, focusing on designing and implementing scalable microservices architectures to support high-performance applications. (Sept 2024 - Present)",
+                    logo: alphanet // Ensure this path is correct
                 },
                 {
                     title: "Fullstack Blockchain Team Lead",
-                    desc: "Led blockchain application development and team management at Antier Solutions, delivering decentralized solutions. (Dec 2020 - July 2025)",
-                    logo: antier
+                    desc: "Led a team of developers in building decentralized blockchain applications and solutions at Antier Solutions. Successfully delivered multiple projects involving smart contracts, DeFi platforms, and NFT marketplaces. (Dec 2020 - July 2025)",
+                    logo: antier // Ensure this path is correct
                 },
                 {
                     title: "Full Stack Software Developer",
-                    desc: "Developed innovative web and mobile applications at Innow8 Apps Pvt Ltd, enhancing user engagement and system performance. (Feb 2019 - Dec 2020)",
-                    logo: innow8
+                    desc: "Developed innovative web and mobile applications at Innow8 Apps Pvt Ltd, enhancing user engagement and system performance through modern technologies and best practices. Contributed to both frontend and backend development. (Feb 2019 - Dec 2020)",
+                    logo: innow8 // Ensure this path is correct
                 },
                 {
                     title: "Software Engineer",
-                    desc: "Worked on software development and enterprise solutions at eNest Technologies Pvt Ltd, contributing to multiple successful projects. (Jan 2018 - Sept 2018)",
-                    logo: enest
+                    desc: "Worked on enterprise-level software solutions at eNest Technologies Pvt Ltd, contributing to the design, development, and deployment of multiple successful projects. Gained hands-on experience in full-stack development and agile methodologies. (Jan 2018 - Sept 2018)",
+                    logo: enest // Ensure this path is correct
                 }
             ]
         }
@@ -545,10 +545,10 @@ class DynamicValues {
             text: "Contact me",
             arr: [
                 {
-                    title: 'WhatsApp ( Recommended )',
+                    title: 'WhatsApp (Recommended)',
                     logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
                     link: 'https://wa.me/+919855657566',
-                    desc: "+919855657566"
+                    desc: "Connect with me on WhatsApp for quick discussions or inquiries. (+919855657566)"
                 },
                 {
                     title: 'Email',
@@ -570,73 +570,38 @@ class DynamicValues {
                 {
                     title: 'Anywhere on the internet',
                     logo: 'https://user-images.githubusercontent.com/6418354/155840900-91ac076a-8d2b-45dc-b346-66f72d376d4b.png',
-                    desc: "Kulwinder vilasra"
+                    desc: "Search for 'Kulwinder vilasra' to find me across platforms."
                 },
                 {
                     title: 'GitHub',
                     logo: 'https://cdn-icons-png.flaticon.com/128/1051/1051275.png',
-                    link: 'https://github.com/kulwindervilasra/'
+                    link: 'https://github.com/kulwindervilasra/',
+                    desc: "Explore my open-source projects and contributions on GitHub."
                 },
                 {
                     title: 'LinkedIn',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841027-8698cb12-7ddd-4604-a4ea-c618ddbc1cd8.png',
-                    link: 'https://www.linkedin.com/in/kulwinder-singh-394384130/'
+                    link: 'https://www.linkedin.com/in/kulwinder-singh-394384130/',
+                    desc: "Connect with me professionally on LinkedIn."
                 },
-                // {
-                //     title: 'Facebook',
-                //     logo: 'https://user-images.githubusercontent.com/6418354/155840898-9e2327aa-a280-45e3-8266-8268242abda4.png',
-                //     link: 'https://www.facebook.com/p32929'
-                // },
                 {
                     title: 'Twitter',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841031-532d5d6e-797a-4da1-8064-48d266b69ab2.png',
-                    link: 'https://twitter.com/vilasra'
+                    link: 'https://twitter.com/vilasra',
+                    desc: "Follow me on Twitter for updates and insights."
                 },
                 {
                     title: 'Instagram',
                     logo: 'https://user-images.githubusercontent.com/6418354/155841023-0b842621-56a3-42ec-81f1-3944034b09c7.png',
-                    link: 'https://www.instagram.com/vilasraboyz/#'
+                    link: 'https://www.instagram.com/vilasraboyz/',
+                    desc: "Check out my Instagram for personal and professional highlights."
                 },
-                // {
-                //     title: 'Fiverr',
-                //     logo: 'https://cdn.worldvectorlogo.com/logos/fiverr-1.svg',
-                //     link: 'https://www.fiverr.com/users/fayazbinsalam/'
-                // },
                 {
                     title: "Upwork",
                     logo: "https://cdn.worldvectorlogo.com/logos/upwork-roundedsquare-1.svg",
-                    link: "https://www.upwork.com/freelancers/~018cb3122f40181fd5"
+                    link: "https://www.upwork.com/freelancers/~018cb3122f40181fd5",
+                    desc: "Hire me for freelance projects on Upwork."
                 },
-                // {
-                //     title: "Medium",
-                //     logo: "https://seeklogo.com/images/M/medium-logo-93CDCF6451-seeklogo.com.png",
-                //     link: "https://medium.com/@p32929_77176"
-                // },
-                // {
-                //     title: "xda",
-                //     logo: "https://www.svgrepo.com/show/331651/xda-developers.svg",
-                //     link: "https://forum.xda-developers.com/m/p32929.5346826/"
-                // },
-                // {
-                //     title: "Product Hunt",
-                //     logo: "https://seeklogo.com/images/P/product-hunt-logo-A144953C4C-seeklogo.com.png?v=637846885100000000",
-                //     link: "https://www.producthunt.com/@p32929"
-                // },
-                // {
-                //     title: "UVA Online Judge",
-                //     logo: "https://github.com/p32929/portfolio-v2/assets/6418354/5e21914b-9dfd-4394-bfa3-d2e216e8ce39",
-                //     link: "https://uhunt.onlinejudge.org/id/590978"
-                // },
-                // {
-                //     title: "URI Online Judge",
-                //     logo: "https://user-images.githubusercontent.com/26368939/110052090-be0a0b00-7d35-11eb-8827-993190a9568e.png",
-                //     link: "https://www.beecrowd.com.br/judge/en/profile/76542"
-                // },
-                // {
-                //     title: "Buy Me a Coffee",
-                //     logo: "https://cdn.iconscout.com/icon/free/png-256/free-buymeacoffee-3628667-3029892.png",
-                //     link: "https://www.buymeacoffee.com/p32929"
-                // },
                 {
                     title: 'Skype',
                     logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
@@ -644,19 +609,8 @@ class DynamicValues {
                     link: 'skype:live:9f3280f7701fb1d8?chat'
                 },
             ]
-        },
-        // {
-        //     text: "Thank you for visiting my portfolio",
-        //     arr: [
-        //         {
-        //             title: "Click on the link button",
-        //             desc: 'To create your own portfolio. It will only take around 3 minutes',
-        //             logo: `https://cdn.iconscout.com/icon/premium/png-256-thumb/gift-2990371-2484427.png`,
-        //             link: 'https://github.com/p32929/p32929.github.io/'
-        //         }
-        //     ]
-        // }
-    ]
+        }
+    ];
 }
 
 // 
