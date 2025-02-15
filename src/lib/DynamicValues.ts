@@ -60,6 +60,7 @@ class DynamicValues {
         },
         {
             text: "Experience",
+            shouldNotSort: true,
             arr: [
                 {
                     title: "Senior Backend Engineer",
@@ -97,32 +98,32 @@ class DynamicValues {
                 {
                     title: "Substrate",
                     desc: "Experienced in building custom blockchains using Substrate, a modular framework for creating interoperable and scalable blockchain networks.",
-                    logo: "https://substrate.dev/img/substrate-logo.png"
+                    logo: "https://cryptologos.cc/logos/polkadot-new-dot-logo.svg?v=040"
                 },
                 {
                     title: "Cosmos SDK",
                     desc: "Skilled in creating interoperable blockchain solutions using the Cosmos SDK, enabling cross-chain communication and decentralized ecosystems.",
-                    logo: "https://cosmos.network/images/cosmos-logo.svg"
+                    logo: "https://docs.cosmos.network/img/logo-sdk.svg"
                 },
                 {
                     title: "Tendermint",
                     desc: "Expertise in Tendermint for building secure and scalable consensus engines, ensuring high-performance blockchain networks.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/34/Tendermint_Logo.svg"
+                    logo: "https://logos-download.com/wp-content/uploads/2023/02/Tendermint_Logo.png"
                 },
                 {
                     title: "Hyperledger Fabric",
                     desc: "Experienced in developing enterprise-grade blockchain solutions using Hyperledger Fabric, focusing on permissioned networks and modular architecture.",
-                    logo: "https://www.hyperledger.org/wp-content/uploads/2018/08/hyperledger_fabric.png"
+                    logo: "https://hyperledger-fabric.readthedocs.io/en/release-2.5/_images/hyperledger_fabric_logo_color.png"
                 },
                 {
                     title: "Polkadot",
                     desc: "Proficient in building interoperable blockchains using Polkadot's multi-chain framework, enabling seamless communication between parachains.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Polkadot_new.png"
+                    logo: "https://cryptologos.cc/logos/polkadot-new-dot-logo.svg?v=040"
                 },
                 {
                     title: "Layer 1 & Layer 2",
                     desc: "Knowledgeable in Layer 1 and Layer 2 scaling solutions, including rollups, sidechains, and sharding, to optimize blockchain performance.",
-                    logo: "https://cryptologos.cc/logos/layer-2-logo.svg"
+                    logo: "https://s3.amazonaws.com/assets.coingecko.com/app/public/ckeditor_assets/pictures/6329/content_Twitter_PoR_Roll_Out_%2814%29.png"
                 }
             ]
         },
@@ -142,7 +143,7 @@ class DynamicValues {
                 {
                     title: "WASM",
                     desc: "Experienced in WebAssembly (WASM) for building fast and efficient blockchain applications, enabling cross-platform compatibility.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/WebAssembly_Logo.svg"
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/WebAssembly_Logo.svg/600px-WebAssembly_Logo.svg.png"
                 }
             ]
         },
@@ -157,7 +158,7 @@ class DynamicValues {
                 {
                     title: "TypeScript",
                     desc: "Experienced in TypeScript for building scalable and maintainable web applications, ensuring type safety and improved developer experience.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/TypeScript_Logo.svg"
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png"
                 },
                 {
                     title: "Python",
@@ -242,7 +243,7 @@ class DynamicValues {
                 {
                     title: "MongoDB",
                     desc: "Experienced in MongoDB for building scalable NoSQL database solutions, leveraging its flexibility and document-based architecture.",
-                    logo: "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg"
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/512px-MongoDB_Logo.svg.png?20190626143224"
                 },
                 {
                     title: "PostgreSQL",
@@ -262,7 +263,7 @@ class DynamicValues {
                 {
                     title: "Google Cloud",
                     desc: "Experienced in Google Cloud for building and scaling cloud-native applications, utilizing services like Kubernetes Engine and BigQuery.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Google_Cloud_logo.svg"
+                    logo: "https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Logo-700x394.png"
                 },
                 {
                     title: "Docker",
@@ -287,27 +288,27 @@ class DynamicValues {
                 {
                     title: "Web3.js",
                     desc: "Proficient in Web3.js for interacting with Ethereum-based blockchain networks, enabling seamless integration of dApps and wallets.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Metamask_logo.svg"
+                    logo: "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/web-3-icon.png"
                 },
                 {
                     title: "Ethers.js",
                     desc: "Experienced in Ethers.js for building Ethereum-based applications and smart contracts, ensuring lightweight and efficient interactions.",
-                    logo: "https://ethers.org/favicon.svg"
+                    logo: "https://images.seeklogo.com/logo-png/42/1/ethers-logo-png_seeklogo-426721.png"
                 },
                 {
                     title: "OpenZeppelin",
                     desc: "Skilled in OpenZeppelin for building secure and audited smart contracts, leveraging its battle-tested libraries and tools.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d7/OpenZeppelin.png"
+                    logo: "https://www.openzeppelin.com/hubfs/oz-light-bg.svg"
                 },
                 {
                     title: "Truffle",
                     desc: "Proficient in Truffle for developing and testing Ethereum-based smart contracts, ensuring streamlined workflows and debugging.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Truffle_logo.png"
+                    logo: "https://archive.trufflesuite.com/assets/logo.png"
                 },
                 {
                     title: "Hardhat",
                     desc: "Experienced in Hardhat for building and deploying Ethereum-based applications, leveraging its powerful development environment.",
-                    logo: "https://hardhat.org/favicon.ico"
+                    logo: "https://hardhat.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhardhat-logo.5c5f687b.svg&w=256&q=75"
                 }
             ]
         },
@@ -322,17 +323,17 @@ class DynamicValues {
                 {
                     title: "REST",
                     desc: "Experienced in REST for building scalable and interoperable web services, ensuring clean and standardized API design.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/8/86/REST-API-icon.png"
+                    logo: "https://www.ovhcloud.com/sites/default/files/styles/large_screens_1x/public/2022-05/whatis_rest_api.webp"
                 },
                 {
                     title: "WebSocket",
                     desc: "Skilled in WebSocket for building real-time communication applications, enabling bidirectional data streaming.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/WebSockets_Logo.svg"
+                    logo: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*4BtGcPz3JauG9qsNXzLMXA.gif"
                 },
                 {
                     title: "RabbitMQ",
                     desc: "Proficient in RabbitMQ for building message-driven and event-based systems, ensuring reliable message delivery and scalability.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/37/RabbitMQ_logo.svg"
+                    logo: "https://www.rabbitmq.com/img/rabbitmq-logo-with-name.svg"
                 }
             ]
         },
@@ -342,17 +343,17 @@ class DynamicValues {
                 {
                     title: "Jest",
                     desc: "Proficient in Jest for testing JavaScript and TypeScript applications, ensuring comprehensive unit and integration testing.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/9/94/Jest_logo.svg"
+                    logo: "https://icon.icepanel.io/Technology/svg/Jest.svg"
                 },
                 {
                     title: "Mocha",
                     desc: "Experienced in Mocha for testing Node.js applications, leveraging its flexibility and plugin ecosystem.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mocha_logo.svg"
+                    logo: "https://mochajs.org/images/mocha-logo.svg"
                 },
                 {
                     title: "Chai",
                     desc: "Skilled in Chai for writing expressive and readable test assertions, ensuring robust and maintainable test suites.",
-                    logo: "https://www.chaijs.com/img/chai-logo.svg"
+                    logo: "https://www.chaijs.com/img/favicon.ico"
                 }
             ]
         },
@@ -362,12 +363,12 @@ class DynamicValues {
                 {
                     title: "RazorPay",
                     desc: "Experienced in integrating RazorPay for seamless payment processing in web applications, ensuring secure and efficient transactions.",
-                    logo: "https://razorpay.com/favicon.ico"
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Razorpay_logo.webp/620px-Razorpay_logo.webp.png?20220522093348"
                 },
                 {
                     title: "Stripe",
                     desc: "Proficient in integrating Stripe for secure and scalable payment solutions, leveraging its developer-friendly APIs.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/62/Stripe_Logo%2C_revised_2016.svg"
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/250px-Stripe_Logo%2C_revised_2016.svg.png"
                 },
                 {
                     title: "PhonePe",
@@ -377,7 +378,7 @@ class DynamicValues {
                 {
                     title: "UPI",
                     desc: "Experienced in integrating UPI for fast and secure payment processing, ensuring compliance with Indian banking standards.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/9/9f/BHIM-UPI-Logo.svg"
+                    logo: "https://www.npci.org.in/images/npci/logo.png"
                 },
                 {
                     title: "Paytm",
@@ -387,7 +388,7 @@ class DynamicValues {
                 {
                     title: "Google Pay",
                     desc: "Skilled in integrating Google Pay for seamless and secure transactions, leveraging its widespread adoption.",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Pay_Logo.svg"
+                    logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAbCAMAAAAeYLy0AAAA8FBMVEX///+eoKNPVFo0qFNChfRMUVfqQzW/wcLH1/syfvP6+vr7uwBWW2AufPObnqCIi46oqqw8gvTR0tPpNSToJg3qPzD3xsO1trjpKxXo6OmWmJv8vwBzdnvx8vLh6f1fY2jz+fQSoT+Mx5n86unynZjsXlTubWX1tbLwiYPrTEDnAAD74eDrUUbvgnvtZVzxlZX/+eXyfwDpNDf92pb3pRb8x1L5rgD99PjT3/xsnPYUc/P8y1/7wS/8z2+orRji8upSjfX+5bh+rkRvu4F6pPZPp0KazaW53cNit3bS6NczonQ9jdQUpC7W5PBLr2Sq1bSXQ9WSAAAB3ElEQVQ4jdWT21YTMRSGM5nZHUzSOXZMJ0yatoCieFZEEaUKUvH4/m/jTtJpwbZ0wZ3/Xf7sb+1TQsh/pp3dvbJXPXh4W26/V1adTqcqy/tzT6ZWKr4BO3pUWqqy7OOD1k2EABQV9VrwCRJl9XT/Wb/qLTIGVNYoRalewz3HfH3X3c7egkPQV6lotpp78fJVp3+w7LdgDc1q8PX2m3J3hd+CGkGWNcYobFZK37GWMTnk22+P7OHd1kzXwYyqWlAwlEJMMlDeBEk454fu8L57z+mYtSBjTGcU6hhS9CQFzYC6WwHMgh9c5HkeOXVnoBDUCvMQP9eEShyVraOwiU84P5llRF0FjUClrqk4UEEc0wRHZfCYArofOf90ai8HVpMoyq/3aEdhqH8LCSENFG5ehHzmX8KzNmTQjfLzJbARTYF7URYsIMXRFNb+GoajCx/BJnnU3foXxIm4JgsslRADTBjnT0dIfrskZDj9HuX5hKwAZ4ktGItGSH8xRjIcWYXhj+PBEogErkOnrkdCqPEraUmvn7/a6ATmYI1LEUBjv/3MVex1+Xvks54N516RLf6TDhqjtM7cTBRc/Winf8bji+mQbJZe9+g3KfC7uLUYmLsltP/iTpKSbQ66UX8BHuklQ0tWz1cAAAAASUVORK5CYII="
                 },
                 {
                     title: "Cashfree",
@@ -409,7 +410,7 @@ class DynamicValues {
                 },
                 {
                     title: "Jira",
-                    logo: "https://upload.wikimedia.org/wikipedia/en/8/8c/Jira_%28Software%29_Logo.svg"
+                    logo: "https://images.ctfassets.net/8j5aqoy0ts8s/5MpU3FFmDN64SPZPgCX4qg/b83847032fdda852206f8098aa093ae6/logo-strapline.jpg"
                 },
                 {
                     title: "Figma",
@@ -417,7 +418,7 @@ class DynamicValues {
                 },
                 {
                     title: "Heroku",
-                    logo: "https://upload.wikimedia.org/wikipedia/en/a/a9/Heroku_logo.svg"
+                    logo: "https://www.heroku.com/assets/enterprise/logo-blue-cde578d6a1931a7ba371bc0c5397d13ddf02a6059fc943b8ca86b7b53522097a.svg"
                 },
                 {
                     title: "Linux",
@@ -439,7 +440,7 @@ class DynamicValues {
                 {
                     title: "SaitaChain",
                     link: "https://saitachain.com/",
-                    logo: "https://saitachain.com/favicon.ico",
+                    logo: "https://saitachain.com/saitachainlogo.png    ",
                     desc: "Implemented decentralized applications for a scalable Layer 0 blockchain ecosystem, including Validator/Nominator apps and a decentralized exchange (DEX). Enabled seamless cross-chain interoperability and high-performance transaction processing."
                 },
                 {
@@ -451,7 +452,7 @@ class DynamicValues {
                 {
                     title: "Galaxia Coin",
                     link: "https://www.galaxiacoin.io/",
-                    logo: "https://www.galaxiacoin.io/favicon.ico",
+                    logo: "https://www.galaxiacoin.io/assets/images/logo-white.svg",
                     desc: "Led core blockchain development using Substrate at Antier Solutions. Designed and implemented consensus mechanisms, staking modules, and governance systems, ensuring a robust and secure blockchain ecosystem."
                 },
                 {
@@ -468,7 +469,7 @@ class DynamicValues {
                 {
                     title: "Zest AI Backend",
                     link: "https://zest.ai/",
-                    logo: "https://zest.ai/favicon.ico",
+                    logo: "https://www.zest.ai/wp-content/themes/zest/images/Zest--logo.png",
                     desc: "Architected and built backend systems for AI-driven credit underwriting using Node.js. Integrated machine learning models to automate loan workflows, reducing manual intervention and improving decision-making accuracy."
                 },
                 {
@@ -480,13 +481,13 @@ class DynamicValues {
                 {
                     title: "FoodClub",
                     link: "https://foodclub.com/",
-                    logo: "https://foodclub.com/favicon.ico",
+                    logo: "https://foodclub.com/_next/static/media/food-club-logo.d2e87072.svg",
                     desc: "Worked on mobile applications at Innow8 Apps Pvt Ltd, focusing on enhancing user engagement and streamlining order management processes. Leveraged React Native for cross-platform compatibility and performance optimization."
                 },
                 {
                     title: "Phantom Wallet Mobile App",
                     link: "https://play.google.com/store/apps/details?id=app.phantom&hl=en_IN",
-                    logo: "https://phantom.app/favicon.ico",
+                    logo: "https://phantom.com/favicon/favicon-32x32.png",
                     desc: "Developed a mobile app for Phantom Wallet using React Native at Innow8 Apps Pvt Ltd. Enabled secure crypto transactions, wallet management, and integration with Solana blockchain, ensuring a smooth user experience."
                 },
                 {
@@ -501,10 +502,10 @@ class DynamicValues {
             text: "Cryptocurrency Exchanges",
             arr: [
                 {
-                    title: "BWB Exchange",
-                    link: "https://bwbexchange.com/",
-                    logo: "https://bwbexchange.com/favicon.ico",
-                    desc: "Developed a cryptocurrency exchange supporting P2P and margin trading. Reduced transaction processing time by 35% through optimized backend architecture and implemented robust security measures to protect user assets."
+                    title: "Agencia RXE",
+                    link: "https://agenciarxe.com/",
+                    logo: "https://agenciarxe.com/wp-content/uploads/2023/09/logo-1.svg",
+                    desc: "Worked on Agencia RXE, a cryptocurrency exchange platform ensuring secure and scalable trading solutions."
                 }
             ]
         },
@@ -514,7 +515,7 @@ class DynamicValues {
                 {
                     title: "Holland & Barrett PIM Services",
                     link: "https://www.hollandandbarrett.com/",
-                    logo: "https://www.hollandandbarrett.com/favicon.ico",
+                    logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAxlBMVEUHV0z///8AVkoOSkL0+fkZWE8AU0cARTj6//+2x8VJdmwARzv8//uawzYAWEvT4N6Co5/K1NNuj4gAT0gATUEAUEEASTgATkwAVU0AVUWYr6qgtbIAUj6Cs0ifxTIASkF6mpVGfj5tmkGFtkOCrUY6eECMoqBUjEORwkekz0EtaUPA0tFdgnwAUjdmnURDekZfkjkaXzxpgn1spUQmXU4tbkFnl0yYzUgAQUEgYUSXvkF2qU7l7+40Y1tSiEdRhjQAOSyBvlJcecaZAAADuElEQVRoge2WfXOiOhTGY9oGhQ29NqSEFYIUvYCtWsul3vrS3f3+X2pPEHxZwTvemZ3ZP/J0OiMM+eXw5DkhCGlpaWlpaWlpaWn94fIQshH+LWhMXBY6nvs/R1uG4RzfcAzD2l8wP3oK4tHTmImTIZaSAU9aDrnAvuv3+w/EPrD/7vd7rL5IUprFT7M0iyeixmPW6+/1PHgxvDY4MTudTs86wI17uOGUHovpLJN0zgh3X2m6sEVdz23nWPcmb4d/AfjhBsC7nZsS7n1SmkWOh4WwUvnEBcJYLW4J/7JTiX/j9tXwMKUy9m075MLNaczFdMIE3sG7x7V3/2lO0wW4KCiV7wwt0uX430AG4XiZpR8V/FYtJ0TBfFb0Xng1fEwpTTCbSbrKM5nf5JLKNangd6UTmBg9gG+aI/OfcMJGwATzCzWLXPoncIS9rSp92+jLJc+nK0pzx/0EtMxmBH2sR9+WvkDHcGR/78KA6+FsBiV/eDxJ02DOERbuTbLkp3BhW7C23evhwg8kXXNMwjD0BHFIkWc59NcJnL8pz50mdtVEBnFqfT94jjxnTYEOzUO8IhmlS0kLUXlePf64VaEfPLbDn98e9nrZwI3Klo8oiWWWOz6L4kyClt9YHcXBV6WBykrnlrfmvEEAx8L5hCaCxaTv4XtGVWRWY1ect3/ntq3/W+HIUcuZxaOAUj+lQR6rIEaufQ7fmM2uNMJLz8U8g3AnnIXFj+mPImT8Hd5iWZxXDmkZWo2bSwm/H/6117Dy3IF+pHFYhgb+gOnEkPdZ3aHDSj2VxI7Z2KJVWvhedVq8FFCJGmNX/+RVTccqOOQLniZ8F5dnowXemHPhQ3vSCB+9LlGtujrdW0DOi/KmMeitTcRhAWly/LYMTJfBGRz5qvRGX1rhrvI8OBqCGeRGvrIzOFer9HIVHBeQFtWQe03gmk7wGZxcXzligXLh4GV5veboV7gxVJ5bTT3aCvfsRQq0pPo82mwMXZou/BrOjcedHtQX795oCnp75b4AY6SMdscMvzRljr3all6lTdlFjZZfgNvCjVawAcwZ8hGbLFUyy4nO2h92RauJfXE/98kYnAEkdouVlGnkItEI/9rc/Yhsf5nY6sN7huV+Diepaa6+cIsE6g4WzBMNlW8GW6ftnEpM0zw+xGLbNLe1gx52xgGcurIsjg57trc1D7ozLpwWbQ+T04kJwYfTn3D5IslfC5/tz4owhOzltR4Uy0obZzz5KVwgH9/6Pad1LS0tLS0tLS0trT9XPwFWGWMDkfv9XwAAAABJRU5ErkJggg==",
                     desc: "Worked on Product Information Management (PIM) services using Node.js at Innow8 Apps Pvt Ltd. Implemented unit testing and automated workflows to improve data accuracy and operational efficiency."
                 },
                 {
@@ -548,7 +549,7 @@ class DynamicValues {
                 {
                     title: "GetCalculators",
                     link: "https://getcalculators.com/",
-                    logo: "https://getcalculators.com/favicon.ico",
+                    logo: "https://getcalculators.com/static/media/x-large-logo.ed398091.png",
                     desc: "Worked on a React and Node.js-based tool at eNest Technologies Pvt Ltd. Designed and implemented calculators for various use cases, ensuring accurate results and an intuitive user interface."
                 }
             ]

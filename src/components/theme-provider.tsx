@@ -1,7 +1,6 @@
-import React from "react";
-import { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
-type Theme = "dark" | "light" | "system";
+type Theme = "dark" | "light" | "system" | "vibrant-dark" | "minimalist-light" | "futuristic-dark";
 
 type ThemeProviderProps = {
   children: React.ReactNode;
@@ -33,32 +32,36 @@ export function ThemeProvider({
 
   useEffect(() => {
     const root = window.document.documentElement;
+    const availableThemes: Theme[] = [
+      "dark",
+      "light",
+      "vibrant-dark",
+      "minimalist-light",
+      "futuristic-dark"
+    ];
 
-    root.classList.remove("light", "dark");
+    root.classList.remove(...availableThemes);
 
     if (theme === "system") {
-      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
-        .matches
+      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
         ? "dark"
         : "light";
-
       root.classList.add(systemTheme);
-      return;
+    } else {
+      root.classList.add(theme);
     }
-
-    root.classList.add(theme);
   }, [theme]);
 
   const value = {
     theme,
-    setTheme: (theme: Theme) => {
-      localStorage.setItem(storageKey, theme);
-      setTheme(theme);
+    setTheme: (newTheme: Theme) => {
+      localStorage.setItem(storageKey, newTheme);
+      setTheme(newTheme);
     },
   };
 
   return (
-    <ThemeProviderContext.Provider {...props} value={value}>
+    <ThemeProviderContext.Provider value={value} {...props}>
       {children}
     </ThemeProviderContext.Provider>
   );

@@ -1,11 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
-// const tailwindConfig = require("./tailwind.config.js");
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
-  darkMode: ["class"],
+  darkMode: ["class", "[data-theme='dark']"], // Supports both class and attribute-based themes
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -78,5 +75,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
-}
+  plugins: [tailwindcssAnimate],
+};
