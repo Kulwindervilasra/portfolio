@@ -34,8 +34,8 @@ jobs:
       
       - name: Configure Git Identity  # ✅ Fix: Set user.name and user.email
         run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "github-actions"
+          git config --global user.email "kulwinder.viasra@gmail.com"
+          git config --global user.name "Kulwinder singh"
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
