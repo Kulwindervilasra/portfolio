@@ -9,85 +9,44 @@ import india from "../assets/images/india.png"
 class DynamicValues {
     static initialInformation: IInitialInformation = {
         name: "Kulwinder Singh",
-        occupation: "Fullstack Software Developer, Team Lead and Blockchain Expert",
-    }
+        occupation: "Fullstack Software Developer | Blockchain Expert | Team Lead",
+    };
 
     static directMessageItems: Array<IDirectMessageItem> = [
         {
             name: "WhatsApp",
-            link: "https://api.whatsapp.com/send?phone=+919855657566"
+            link: "https://api.whatsapp.com/send?phone=+919855657566",
+            // desc: "Connect with me on WhatsApp for quick discussions."
         },
-        // {
-        //     name: "Messenger",
-        //     link: "https://m.me/vilasraboyz"
-        // },
         {
             name: "Telegram",
-            link: "https://t.me/vilasraboyz"
+            link: "https://t.me/vilasraboyz",
+            // desc: "Reach out via Telegram for inquiries and collaborations."
         },
-
-    ]
+    ];
 
     static about: Array<ITitledListItem> = [
         {
             text: "Information",
             shouldNotSort: true,
             arr: [
-                {
-                    title: "Name",
-                    desc: "Kulwinder Singh",
-                    logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png"
-                },
-                {
-                    title: "Work Experience",
-                    desc: "7+ years",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png"
-                },
-                {
-                    title: "Languages",
-                    desc: "Punjabi, Hindi, English",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png"
-                },
-                {
-                    title: "Nationality",
-                    desc: "Indian",
-                    logo: india
-                },
-                {
-                    title: "Resume",
-                    desc: "Click the link icon to view/download",
-                    link: "https://drive.google.com/file/d/1NrxK5tlN9CtiLf3NNe75mOGrl4_0RlXT/view",
-                    logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png"
-                }
+                { title: "Name", desc: "Kulwinder Singh", logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png" },
+                { title: "Work Experience", desc: "7+ years of professional experience in full-stack development and blockchain.", logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png" },
+                { title: "Languages", desc: "Fluent in Punjabi, Hindi, and English.", logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png" },
+                { title: "Nationality", desc: "Indian citizen with a global professional outlook.", logo: india },
+                { title: "Resume", desc: "Click the link to view/download my latest resume.", link: "https://drive.google.com/file/d/1NrxK5tlN9CtiLf3NNe75mOGrl4_0RlXT/view", logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png" }
             ]
         },
         {
-            text: "Experiences",
+            text: "Experience",
             arr: [
-                {
-                    title: "Alphanet Corp, Mohali",
-                    desc: "Senior Backend Engineer (Sept 2024-Present)",
-                    logo: alphanet
-                },
-                {
-                    title: "Antier Solutions, Mohali",
-                    desc: "Fullstack Blockchain Apps Team Lead (Dec 2020-July 2025)",
-                    logo: antier
-                },
-                {
-                    title: "Innow8 Apps Pvt Ltd, Mohali",
-                    desc: "Full Stack Software Developer (Feb 2019-Dec 2020)",
-                    logo: innow8
-                },
-                {
-                    title: "eNest Technologies Pvt Ltd, Mohali",
-                    desc: "Software Engineer (Jan 2018-Sept 2018)",
-                    logo: enest
-                },
-
+                { title: "Senior Backend Engineer", desc: "Currently leading backend engineering efforts at Alphanet Corp, focusing on scalable architectures. (Sept 2024 - Present)", logo: alphanet },
+                { title: "Fullstack Blockchain Team Lead", desc: "Led blockchain application development and team management at Antier Solutions. (Dec 2020 - July 2025)", logo: antier },
+                { title: "Full Stack Software Developer", desc: "Developed innovative web and mobile applications at Innow8 Apps Pvt Ltd. (Feb 2019 - Dec 2020)", logo: innow8 },
+                { title: "Software Engineer", desc: "Worked on software development and enterprise solutions at eNest Technologies Pvt Ltd. (Jan 2018 - Sept 2018)", logo: enest }
             ]
         }
-    ]
+    ];
 
     static skills: Array<ITitledListItem> = [
         {
@@ -182,6 +141,18 @@ class DynamicValues {
                 { title: "Jest", logo: "https://upload.wikimedia.org/wikipedia/commons/9/94/Jest_logo.svg" },
                 { title: "Mocha", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mocha_logo.svg" },
                 { title: "Chai", logo: "https://www.chaijs.com/img/chai-logo.svg" }
+            ]
+        },
+        {
+            text: "Payment Gateways Integration",
+            arr: [
+                { title: "RazorPay", logo: "https://razorpay.com/favicon.ico" },
+                { title: "Stripe", logo: "https://upload.wikimedia.org/wikipedia/commons/6/62/Stripe_Logo%2C_revised_2016.svg" },
+                { title: "PhonePe", logo: "https://www.phonepe.com/favicon.ico" },
+                { title: "UPI", logo: "https://upload.wikimedia.org/wikipedia/commons/9/9f/BHIM-UPI-Logo.svg" },
+                { title: "Paytm", logo: "https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png" },
+                { title: "Google Pay", logo: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Pay_Logo.svg" },
+                { title: "Cashfree", logo: "https://www.cashfree.com/favicon.ico" }
             ]
         },
         {
