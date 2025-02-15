@@ -15,13 +15,13 @@ class DynamicValues {
     static directMessageItems: Array<IDirectMessageItem> = [
         {
             name: "WhatsApp",
-            link: "https://api.whatsapp.com/send?phone=+919855657566",
-            // desc: "Connect with me on WhatsApp for quick discussions."
+            link: "https://wa.me/+919855657566",
+            // desc: "Connect with me on WhatsApp for quick discussions or inquiries."
         },
         {
             name: "Telegram",
             link: "https://t.me/vilasraboyz",
-            // desc: "Reach out via Telegram for inquiries and collaborations."
+            // desc: "Reach out via Telegram for professional inquiries or collaborations."
         },
     ];
 
@@ -30,20 +30,57 @@ class DynamicValues {
             text: "Information",
             shouldNotSort: true,
             arr: [
-                { title: "Name", desc: "Kulwinder Singh", logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png" },
-                { title: "Work Experience", desc: "7+ years of professional experience in full-stack development and blockchain.", logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png" },
-                { title: "Languages", desc: "Fluent in Punjabi, Hindi, and English.", logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png" },
-                { title: "Nationality", desc: "Indian citizen with a global professional outlook.", logo: india },
-                { title: "Resume", desc: "Click the link to view/download my latest resume.", link: "https://drive.google.com/file/d/1NrxK5tlN9CtiLf3NNe75mOGrl4_0RlXT/view", logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png" }
+                {
+                    title: "Name",
+                    desc: "Kulwinder Singh - A seasoned Fullstack Developer and Blockchain Expert with over 7 years of experience.",
+                    logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png"
+                },
+                {
+                    title: "Work Experience",
+                    desc: "7+ years of professional experience in full-stack development, blockchain, and team leadership.",
+                    logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png"
+                },
+                {
+                    title: "Languages",
+                    desc: "Fluent in Punjabi, Hindi, and English, enabling seamless communication in diverse environments.",
+                    logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png"
+                },
+                {
+                    title: "Nationality",
+                    desc: "Indian citizen with a global professional outlook, experienced in working with international teams.",
+                    logo: india
+                },
+                {
+                    title: "Resume",
+                    desc: "Click the link to view/download my latest resume for a detailed overview of my skills and experience.",
+                    link: "https://drive.google.com/file/d/1NrxK5tlN9CtiLf3NNe75mOGrl4_0RlXT/view",
+                    logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png"
+                }
             ]
         },
         {
             text: "Experience",
             arr: [
-                { title: "Senior Backend Engineer", desc: "Currently leading backend engineering efforts at Alphanet Corp, focusing on scalable architectures. (Sept 2024 - Present)", logo: alphanet },
-                { title: "Fullstack Blockchain Team Lead", desc: "Led blockchain application development and team management at Antier Solutions. (Dec 2020 - July 2025)", logo: antier },
-                { title: "Full Stack Software Developer", desc: "Developed innovative web and mobile applications at Innow8 Apps Pvt Ltd. (Feb 2019 - Dec 2020)", logo: innow8 },
-                { title: "Software Engineer", desc: "Worked on software development and enterprise solutions at eNest Technologies Pvt Ltd. (Jan 2018 - Sept 2018)", logo: enest }
+                {
+                    title: "Senior Backend Engineer",
+                    desc: "Currently leading backend engineering efforts at Alphanet Corp, focusing on scalable architectures and microservices. (Sept 2024 - Present)",
+                    logo: alphanet
+                },
+                {
+                    title: "Fullstack Blockchain Team Lead",
+                    desc: "Led blockchain application development and team management at Antier Solutions, delivering decentralized solutions. (Dec 2020 - July 2025)",
+                    logo: antier
+                },
+                {
+                    title: "Full Stack Software Developer",
+                    desc: "Developed innovative web and mobile applications at Innow8 Apps Pvt Ltd, enhancing user engagement and system performance. (Feb 2019 - Dec 2020)",
+                    logo: innow8
+                },
+                {
+                    title: "Software Engineer",
+                    desc: "Worked on software development and enterprise solutions at eNest Technologies Pvt Ltd, contributing to multiple successful projects. (Jan 2018 - Sept 2018)",
+                    logo: enest
+                }
             ]
         }
     ];
@@ -52,109 +89,314 @@ class DynamicValues {
         {
             text: "Blockchain Platforms & Frameworks",
             arr: [
-                { title: "Ethereum", logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg" },
-                { title: "Substrate", logo: "https://substrate.dev/img/substrate-logo.png" },
-                { title: "Cosmos SDK", logo: "https://cosmos.network/images/cosmos-logo.svg" },
-                { title: "Tendermint", logo: "https://upload.wikimedia.org/wikipedia/commons/3/34/Tendermint_Logo.svg" },
-                { title: "Hyperledger Fabric", logo: "https://www.hyperledger.org/wp-content/uploads/2018/08/hyperledger_fabric.png" },
-                { title: "Polkadot", logo: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Polkadot_new.png" },
-                { title: "Layer1 & Layer2", logo: "https://cryptologos.cc/logos/layer-2-logo.svg" }
+                {
+                    title: "Ethereum",
+                    desc: "Proficient in developing decentralized applications (dApps) and smart contracts on the Ethereum blockchain.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg"
+                },
+                {
+                    title: "Substrate",
+                    desc: "Experienced in building custom blockchains using Substrate, a framework for blockchain development.",
+                    logo: "https://substrate.dev/img/substrate-logo.png"
+                },
+                {
+                    title: "Cosmos SDK",
+                    desc: "Skilled in creating interoperable blockchain solutions using the Cosmos SDK.",
+                    logo: "https://cosmos.network/images/cosmos-logo.svg"
+                },
+                {
+                    title: "Tendermint",
+                    desc: "Expertise in Tendermint for building secure and scalable blockchain consensus engines.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/34/Tendermint_Logo.svg"
+                },
+                {
+                    title: "Hyperledger Fabric",
+                    desc: "Experienced in developing enterprise-grade blockchain solutions using Hyperledger Fabric.",
+                    logo: "https://www.hyperledger.org/wp-content/uploads/2018/08/hyperledger_fabric.png"
+                },
+                {
+                    title: "Polkadot",
+                    desc: "Proficient in building interoperable blockchains using Polkadot's multi-chain framework.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Polkadot_new.png"
+                },
+                {
+                    title: "Layer1 & Layer2",
+                    desc: "Knowledgeable in Layer 1 and Layer 2 scaling solutions for blockchain networks.",
+                    logo: "https://cryptologos.cc/logos/layer-2-logo.svg"
+                }
             ]
         },
         {
             text: "Smart Contract Development",
             arr: [
-                { title: "Solidity", logo: "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg" },
-                { title: "Rust", logo: "https://www.rust-lang.org/static/images/rust-logo-blk.svg" },
-                { title: "WASM", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/WebAssembly_Logo.svg" }
+                {
+                    title: "Solidity",
+                    desc: "Expert in writing secure and efficient smart contracts using Solidity for Ethereum-based applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg"
+                },
+                {
+                    title: "Rust",
+                    desc: "Proficient in Rust for developing high-performance smart contracts and blockchain applications.",
+                    logo: "https://www.rust-lang.org/static/images/rust-logo-blk.svg"
+                },
+                {
+                    title: "WASM",
+                    desc: "Experienced in WebAssembly (WASM) for building fast and efficient blockchain applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/WebAssembly_Logo.svg"
+                }
             ]
         },
         {
             text: "Programming / Markup Languages",
             arr: [
-                { title: "JavaScript", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
-                { title: "TypeScript", logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/TypeScript_Logo.svg" },
-                { title: "Python", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
-                { title: "Rust", logo: "https://www.rust-lang.org/static/images/rust-logo-blk.svg" },
-                { title: "Go", logo: "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" },
-                { title: "HTML", logo: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" },
-                { title: "CSS", logo: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" }
+                {
+                    title: "JavaScript",
+                    desc: "Proficient in JavaScript for building dynamic and interactive web applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                },
+                {
+                    title: "TypeScript",
+                    desc: "Experienced in TypeScript for building scalable and maintainable web applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/TypeScript_Logo.svg"
+                },
+                {
+                    title: "Python",
+                    desc: "Skilled in Python for scripting, automation, and backend development.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                },
+                {
+                    title: "Rust",
+                    desc: "Proficient in Rust for system-level programming and blockchain development.",
+                    logo: "https://www.rust-lang.org/static/images/rust-logo-blk.svg"
+                },
+                {
+                    title: "Go",
+                    desc: "Experienced in Go for building high-performance backend systems and microservices.",
+                    logo: "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg"
+                },
+                {
+                    title: "HTML",
+                    desc: "Expert in HTML for structuring and designing web pages.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                },
+                {
+                    title: "CSS",
+                    desc: "Skilled in CSS for styling and creating responsive web designs.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
+                }
             ]
         },
         {
             text: "Frontend & Backend",
             arr: [
-                { title: "React.js", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-                { title: "Node.js", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" },
-                { title: "Express.js", logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
-                { title: "NestJS", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg" },
-                { title: "Next.js", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" }
+                {
+                    title: "React.js",
+                    desc: "Proficient in React.js for building dynamic and interactive user interfaces.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                },
+                {
+                    title: "Node.js",
+                    desc: "Experienced in Node.js for building scalable and efficient backend systems.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+                },
+                {
+                    title: "Express.js",
+                    desc: "Skilled in Express.js for building RESTful APIs and web applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+                },
+                {
+                    title: "NestJS",
+                    desc: "Proficient in NestJS for building scalable and modular backend applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg"
+                },
+                {
+                    title: "Next.js",
+                    desc: "Experienced in Next.js for building server-side rendered and static web applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+                }
             ]
         },
         {
             text: "Mobile Programming",
             arr: [
-                { title: "React Native", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-                { title: "Ionic", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" }
+                {
+                    title: "React Native",
+                    desc: "Proficient in React Native for building cross-platform mobile applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                },
+                {
+                    title: "Ionic",
+                    desc: "Experienced in Ionic for building hybrid mobile applications with web technologies.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg"
+                }
             ]
         },
         {
             text: "Databases",
             arr: [
-                { title: "MySQL", logo: "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" },
-                { title: "MongoDB", logo: "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg" },
-                { title: "PostgreSQL", logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" }
+                {
+                    title: "MySQL",
+                    desc: "Proficient in MySQL for designing and managing relational databases.",
+                    logo: "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+                },
+                {
+                    title: "MongoDB",
+                    desc: "Experienced in MongoDB for building scalable NoSQL database solutions.",
+                    logo: "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg"
+                },
+                {
+                    title: "PostgreSQL",
+                    desc: "Skilled in PostgreSQL for building robust and efficient relational databases.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+                }
             ]
         },
         {
             text: "Cloud & DevOps",
             arr: [
-                { title: "AWS", logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
-                { title: "Google Cloud", logo: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Google_Cloud_logo.svg" },
-                { title: "Docker", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" },
-                { title: "Kubernetes", logo: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" },
-                { title: "Git", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" }
+                {
+                    title: "AWS",
+                    desc: "Proficient in AWS for deploying and managing cloud-based applications and infrastructure.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+                },
+                {
+                    title: "Google Cloud",
+                    desc: "Experienced in Google Cloud for building and scaling cloud-native applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Google_Cloud_logo.svg"
+                },
+                {
+                    title: "Docker",
+                    desc: "Skilled in Docker for containerizing applications and streamlining deployment processes.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg"
+                },
+                {
+                    title: "Kubernetes",
+                    desc: "Proficient in Kubernetes for orchestrating containerized applications at scale.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg"
+                },
+                {
+                    title: "Git",
+                    desc: "Experienced in Git for version control and collaborative software development.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+                }
             ]
         },
         {
             text: "Blockchain Tools",
             arr: [
-                { title: "Web3.js", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Metamask_logo.svg" },
-                { title: "Ethers.js", logo: "https://ethers.org/favicon.svg" },
-                { title: "OpenZeppelin", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d7/OpenZeppelin.png" },
-                { title: "Truffle", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Truffle_logo.png" },
-                { title: "Hardhat", logo: "https://hardhat.org/favicon.ico" }
+                {
+                    title: "Web3.js",
+                    desc: "Proficient in Web3.js for interacting with Ethereum-based blockchain networks.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Metamask_logo.svg"
+                },
+                {
+                    title: "Ethers.js",
+                    desc: "Experienced in Ethers.js for building Ethereum-based applications and smart contracts.",
+                    logo: "https://ethers.org/favicon.svg"
+                },
+                {
+                    title: "OpenZeppelin",
+                    desc: "Skilled in OpenZeppelin for building secure and audited smart contracts.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d7/OpenZeppelin.png"
+                },
+                {
+                    title: "Truffle",
+                    desc: "Proficient in Truffle for developing and testing Ethereum-based smart contracts.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Truffle_logo.png"
+                },
+                {
+                    title: "Hardhat",
+                    desc: "Experienced in Hardhat for building and deploying Ethereum-based applications.",
+                    logo: "https://hardhat.org/favicon.ico"
+                }
             ]
         },
         {
             text: "APIs & Protocols",
             arr: [
-                { title: "GraphQL", logo: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" },
-                { title: "REST", logo: "https://upload.wikimedia.org/wikipedia/commons/8/86/REST-API-icon.png" },
-                { title: "WebSocket", logo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/WebSockets_Logo.svg" },
-                { title: "RabbitMQ", logo: "https://upload.wikimedia.org/wikipedia/commons/3/37/RabbitMQ_logo.svg" }
+                {
+                    title: "GraphQL",
+                    desc: "Proficient in GraphQL for building efficient and flexible APIs.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg"
+                },
+                {
+                    title: "REST",
+                    desc: "Experienced in REST for building scalable and interoperable web services.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/8/86/REST-API-icon.png"
+                },
+                {
+                    title: "WebSocket",
+                    desc: "Skilled in WebSocket for building real-time communication applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/WebSockets_Logo.svg"
+                },
+                {
+                    title: "RabbitMQ",
+                    desc: "Proficient in RabbitMQ for building message-driven and event-based systems.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/37/RabbitMQ_logo.svg"
+                }
             ]
         },
         {
             text: "Testing Frameworks/Tools",
             arr: [
-                { title: "Jest", logo: "https://upload.wikimedia.org/wikipedia/commons/9/94/Jest_logo.svg" },
-                { title: "Mocha", logo: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mocha_logo.svg" },
-                { title: "Chai", logo: "https://www.chaijs.com/img/chai-logo.svg" }
+                {
+                    title: "Jest",
+                    desc: "Proficient in Jest for testing JavaScript and TypeScript applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/9/94/Jest_logo.svg"
+                },
+                {
+                    title: "Mocha",
+                    desc: "Experienced in Mocha for testing Node.js applications.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mocha_logo.svg"
+                },
+                {
+                    title: "Chai",
+                    desc: "Skilled in Chai for writing expressive and readable test assertions.",
+                    logo: "https://www.chaijs.com/img/chai-logo.svg"
+                }
             ]
         },
         {
             text: "Payment Gateways Integration",
             arr: [
-                { title: "RazorPay", logo: "https://razorpay.com/favicon.ico" },
-                { title: "Stripe", logo: "https://upload.wikimedia.org/wikipedia/commons/6/62/Stripe_Logo%2C_revised_2016.svg" },
-                { title: "PhonePe", logo: "https://www.phonepe.com/favicon.ico" },
-                { title: "UPI", logo: "https://upload.wikimedia.org/wikipedia/commons/9/9f/BHIM-UPI-Logo.svg" },
-                { title: "Paytm", logo: "https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png" },
-                { title: "Google Pay", logo: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Pay_Logo.svg" },
-                { title: "Cashfree", logo: "https://www.cashfree.com/favicon.ico" }
+                {
+                    title: "RazorPay",
+                    desc: "Experienced in integrating RazorPay for seamless payment processing in web applications.",
+                    logo: "https://razorpay.com/favicon.ico"
+                },
+                {
+                    title: "Stripe",
+                    desc: "Proficient in integrating Stripe for secure and scalable payment solutions.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/6/62/Stripe_Logo%2C_revised_2016.svg"
+                },
+                {
+                    title: "PhonePe",
+                    desc: "Skilled in integrating PhonePe for UPI-based payment solutions.",
+                    logo: "https://www.phonepe.com/favicon.ico"
+                },
+                {
+                    title: "UPI",
+                    desc: "Experienced in integrating UPI for fast and secure payment processing.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/9/9f/BHIM-UPI-Logo.svg"
+                },
+                {
+                    title: "Paytm",
+                    desc: "Proficient in integrating Paytm for digital wallet and payment solutions.",
+                    logo: "https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png"
+                },
+                {
+                    title: "Google Pay",
+                    desc: "Skilled in integrating Google Pay for seamless and secure transactions.",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Pay_Logo.svg"
+                },
+                {
+                    title: "Cashfree",
+                    desc: "Experienced in integrating Cashfree for payment gateway solutions.",
+                    logo: "https://www.cashfree.com/favicon.ico"
+                }
             ]
         },
+
         {
             text: "Others",
             arr: [
