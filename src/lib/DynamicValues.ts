@@ -426,7 +426,6 @@ class DynamicValues {
             ]
         }
     ];
-
     static projects: Array<ITitledListItem> = [
         {
             text: "Blockchain Projects",
@@ -435,31 +434,31 @@ class DynamicValues {
                     title: "5ireChain Network",
                     link: "https://5ire.org/",
                     logo: "https://5ire.org/favicon.ico",
-                    desc: "Developed a Substrate-based NPOS blockchain with native token support and applications like IDEs and Wallet extensions. Achieved a 15% reduction in carbon footprint through eco-friendly infrastructure."
+                    desc: "Developed a Substrate-based Nominated Proof-of-Stake (NPOS) blockchain with native token support and integrated applications like IDEs and Wallet extensions. Achieved a 15% reduction in carbon footprint through eco-friendly infrastructure, emphasizing sustainability in blockchain operations."
                 },
                 {
                     title: "SaitaChain",
                     link: "https://saitachain.com/",
                     logo: "https://saitachain.com/favicon.ico",
-                    desc: "Implemented decentralized apps for a scalable Layer 0 blockchain ecosystem, including Validator/Nominator apps and a decentralized exchange (DEX)."
+                    desc: "Implemented decentralized applications for a scalable Layer 0 blockchain ecosystem, including Validator/Nominator apps and a decentralized exchange (DEX). Enabled seamless cross-chain interoperability and high-performance transaction processing."
                 },
                 {
                     title: "Shido Network",
                     link: "https://shido.io/",
                     logo: "https://shido.io/favicon.ico",
-                    desc: "Built a Layer 1 Proof-of-Stake blockchain with interoperability across Cosmos, EVM, and WASM frameworks."
+                    desc: "Built a Layer 1 Proof-of-Stake blockchain with interoperability across Cosmos, EVM, and WASM frameworks. Designed modular architecture to support diverse use cases, from DeFi to NFT marketplaces, ensuring scalability and security."
                 },
                 {
                     title: "Galaxia Coin",
                     link: "https://www.galaxiacoin.io/",
                     logo: "https://www.galaxiacoin.io/favicon.ico",
-                    desc: "Core blockchain development using Substrate at Antier."
+                    desc: "Led core blockchain development using Substrate at Antier Solutions. Designed and implemented consensus mechanisms, staking modules, and governance systems, ensuring a robust and secure blockchain ecosystem."
                 },
                 {
                     title: "Nexa Blockchain",
                     link: "https://nexa.org/",
                     logo: "https://nexa.org/favicon.ico",
-                    desc: "Worked on the core blockchain and explorer for Nexa."
+                    desc: "Contributed to the core blockchain development and explorer for Nexa. Implemented advanced features like real-time analytics, block tracking, and user-friendly interfaces, enhancing transparency and usability."
                 }
             ]
         },
@@ -470,31 +469,31 @@ class DynamicValues {
                     title: "Zest AI Backend",
                     link: "https://zest.ai/",
                     logo: "https://zest.ai/favicon.ico",
-                    desc: "Built backend systems for AI-driven credit underwriting using Node.js, integrating machine learning models to automate loan workflows."
+                    desc: "Architected and built backend systems for AI-driven credit underwriting using Node.js. Integrated machine learning models to automate loan workflows, reducing manual intervention and improving decision-making accuracy."
                 },
                 {
                     title: "Fantom Wallet",
                     link: "https://fantom.foundation/",
                     logo: "https://fantom.foundation/favicon.ico",
-                    desc: "Developed a decentralized wallet, enabling secure fund management and token staking."
+                    desc: "Developed a decentralized wallet enabling secure fund management, token staking, and seamless interaction with the Fantom blockchain. Ensured compliance with industry security standards and delivered an intuitive user experience."
                 },
                 {
                     title: "FoodClub",
                     link: "https://foodclub.com/",
                     logo: "https://foodclub.com/favicon.ico",
-                    desc: "Worked on mobile applications at Innow8."
+                    desc: "Worked on mobile applications at Innow8 Apps Pvt Ltd, focusing on enhancing user engagement and streamlining order management processes. Leveraged React Native for cross-platform compatibility and performance optimization."
                 },
                 {
                     title: "Phantom Wallet Mobile App",
                     link: "https://play.google.com/store/apps/details?id=app.phantom&hl=en_IN",
                     logo: "https://phantom.app/favicon.ico",
-                    desc: "Developed a mobile app for Phantom Wallet using React Native at Innow8."
+                    desc: "Developed a mobile app for Phantom Wallet using React Native at Innow8 Apps Pvt Ltd. Enabled secure crypto transactions, wallet management, and integration with Solana blockchain, ensuring a smooth user experience."
                 },
                 {
                     title: "Poptikr",
                     link: "https://www.poptikr.com/",
                     logo: "https://www.poptikr.com/favicon.ico",
-                    desc: "Freelance project involving full-stack development."
+                    desc: "Freelance project involving full-stack development of a dynamic e-commerce platform. Built scalable APIs, optimized database queries, and implemented responsive UI/UX designs to enhance customer satisfaction."
                 }
             ]
         },
@@ -505,7 +504,7 @@ class DynamicValues {
                     title: "BWB Exchange",
                     link: "https://bwbexchange.com/",
                     logo: "https://bwbexchange.com/favicon.ico",
-                    desc: "Developed a cryptocurrency exchange supporting P2P and margin trading, reducing transaction processing time by 35%."
+                    desc: "Developed a cryptocurrency exchange supporting P2P and margin trading. Reduced transaction processing time by 35% through optimized backend architecture and implemented robust security measures to protect user assets."
                 }
             ]
         },
@@ -516,13 +515,13 @@ class DynamicValues {
                     title: "Holland & Barrett PIM Services",
                     link: "https://www.hollandandbarrett.com/",
                     logo: "https://www.hollandandbarrett.com/favicon.ico",
-                    desc: "Worked on PIM services using Node.js and implemented unit testing at Innow8."
+                    desc: "Worked on Product Information Management (PIM) services using Node.js at Innow8 Apps Pvt Ltd. Implemented unit testing and automated workflows to improve data accuracy and operational efficiency."
                 },
                 {
                     title: "Seven Store",
                     link: "https://www.sevenstore.com/",
                     logo: "https://www.sevenstore.com/favicon.ico",
-                    desc: "Freelance project focused on payment gateway checkout using Stripe."
+                    desc: "Freelance project focused on integrating Stripe payment gateway for a seamless checkout experience. Enhanced payment processing speed and ensured PCI compliance for secure transactions."
                 }
             ]
         },
@@ -533,7 +532,7 @@ class DynamicValues {
                     title: "5ire Wallet",
                     link: "https://chromewebstore.google.com/detail/5ire-wallet/keenhcnmdmjjhincpilijphpiohdppno",
                     logo: "https://5ire.org/favicon.ico",
-                    desc: "A browser extension for the 5ireChain ecosystem, enabling seamless transactions, asset management, and blockchain interactions directly from your web browser."
+                    desc: "Developed a browser extension for the 5ireChain ecosystem, enabling users to manage assets, perform transactions, and interact with decentralized applications directly from their web browsers. Prioritized security and ease of use."
                 }
             ]
         },
@@ -544,18 +543,17 @@ class DynamicValues {
                     title: "Nexa Explorer",
                     link: "https://explorer.nexa.org/",
                     logo: "https://nexa.org/favicon.ico",
-                    desc: "Developed backend and frontend using Node.js and Next.js."
+                    desc: "Developed backend and frontend for the Nexa Explorer using Node.js and Next.js. Implemented features like real-time block tracking, transaction history, and network analytics to enhance transparency and usability."
                 },
                 {
                     title: "GetCalculators",
                     link: "https://getcalculators.com/",
                     logo: "https://getcalculators.com/favicon.ico",
-                    desc: "Worked on React and Node.js at eNest."
+                    desc: "Worked on a React and Node.js-based tool at eNest Technologies Pvt Ltd. Designed and implemented calculators for various use cases, ensuring accurate results and an intuitive user interface."
                 }
             ]
         }
-    ]
-
+    ];
 
     static contacts: Array<ITitledListItem> = [
         {
