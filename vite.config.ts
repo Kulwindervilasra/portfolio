@@ -14,7 +14,7 @@ export default defineConfig({
     compression(
       {
         algorithm: "brotliCompress",
-        include: [".js", ".json", ".css", ".html"]
+        include: [".js", ".json", ".css", ".html", ".jpeg"]
       }
     ),
   ],

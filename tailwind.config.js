@@ -1,5 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+// const tailwindConfig = require("./tailwind.config.js");
+
+export default {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',

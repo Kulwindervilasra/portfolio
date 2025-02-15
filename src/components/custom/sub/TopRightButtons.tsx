@@ -155,13 +155,13 @@ const TopRightButtons: React.FC<Props> = (props) => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Button variant="ghost" size="icon" title="Source code" onClick={() => {
+          {/* <Button variant="ghost" size="icon" title="Source code" onClick={() => {
             const url = `https://github.com/p32929/p32929.github.io/`
             Amplitude.trackCustomEvent(amplitudeEvents.clicked_github_icon, { url })
             window.open(url, "_blank")
           }}>
             <Github className="h-4 w-4" />
-          </Button>
+          </Button> */}
 
           <Button variant="ghost" size="icon" title="Share" onClick={() => setDialogOpen(true)}>
             <Share2 className="h-4 w-4" />

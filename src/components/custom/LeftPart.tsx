@@ -12,6 +12,7 @@ import {
   useSpring,
 } from "framer-motion";
 import { Amplitude, amplitudeEvents } from "@/lib/Amplitude";
+import kulwinderlogo from "../../assets/images/kulwindersingh.png"
 
 interface Props { }
 
@@ -46,7 +47,7 @@ const LeftPart: React.FC<Props> = (props) => {
     <Card className="lg:w-1/3 xl:w-1/3 2xl:w-1/4 h-full p-0 m-0 lg:block hidden ">
       <CardContent className="p-0 m-0 flex flex-col h-full justify-between">
         <div className="flex flex-col w-full items-center p-10">
-          <div className="w-28 h-28 border-2 rounded-md my-8 p-2 relative">
+          <div className="w-30 h-40 border-2 rounded-md my-8 p-2 relative">
             <div
               className="w-full h-full cursor-pointer"
               onMouseEnter={() => {
@@ -87,10 +88,10 @@ const LeftPart: React.FC<Props> = (props) => {
                       <div className="absolute inset-x-10 z-30 w-[50%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
                       <div className="absolute left-10 w-[70%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-1" />
 
-                      <p className="font-semibold text-primary relative z-30 text-base">
+                      <p className="font-semibold text-secondary relative z-30 text-base">
                         Are you feeling lucky today?
                       </p>
-                      <p className="text-primary text-sm text-center font-normal">Click to feel even more lucky...</p>
+                      <p className="text-secondary text-sm text-center font-normal">Click to feel even more lucky...</p>
                     </motion.div>
 
                     <motion.span
@@ -110,8 +111,8 @@ const LeftPart: React.FC<Props> = (props) => {
                   </>
                 )}
               </AnimatePresence>
-
-              <PersonStanding className={cn("w-full h-full ", isHovered ? "glowing-person-icon" : "")} />
+              <img className="w-full h-full " height={80} src={kulwinderlogo}></img>
+              {/* <PersonStanding className={cn("w-full h-full ", isHovered ? "glowing-person-icon" : "")} /> */}
             </div>
           </div>
 

@@ -46,7 +46,6 @@ const ListItem: React.FC<Props> = (props) => {
   const item = props.item;
   let [hoveredIndex, setHoveredIndex] = useState<any>(null);
   const [imageError, setImageError] = useState(false);
-
   const onCardClicked = () => {
     if (item.link) {
       const link = item.link
@@ -85,6 +84,7 @@ const ListItem: React.FC<Props> = (props) => {
           {!imageError ? (
             <LazyLoadImage
               className="mr-4 object-contain"
+
               src={item.logo}
               onError={() => setImageError(true)}
             />
